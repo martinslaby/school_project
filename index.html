@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="Autor" content="Martin Slabý">
+  <meta name="OSGS" content="official SSPS gambling site"> 
+  <meta name="keywords" content="Most prestigious gambling site in a world, come and multiply your money with -nazev site-">
+  <title>OSGS</title>
+  <link type="text/css" href="reset.css" rel="stylesheet">
+  
+  <!--[if lte IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+<!-- ///////////////////////////////////////////////////////////////////////////////// -->
+<script>
+function menubutt()
+{
+    var x = document.getElementById("menu");
+    if (x.style.display === "block") 
+    {
+        x.style.transition = "0.5s";
+        x.style.display = "none";                
+    } 
+    else 
+    {
+        x.style.transition = "0.5s";  
+        x.style.display = "block";
+        x.style.width = "15%";  
+    }
+}
+</script>
+<!-- ///////////////////////////////////////////////////////////////////////////////// -->
+
+ <div class="navbar">
+    <div onclick="menubutt()" class="navbarbutt"> </div>
+ </div>
+  <div class="menu" id="menu">
+    
+  </div>
+</body>
+</html>
